@@ -2,7 +2,7 @@
 This repo has the labs and studies that I used to complete a full AI/ML Udemy course. Started in 2024 and ended 2025
 
 # Reproducing steps
-The python version used in the examples was 3.13
+Required python version >= 3.8
 
 Create a virtual environment and run requirements.txt.
 
