@@ -11,8 +11,8 @@ def plot_cluster(data, labels, title):
         if i != -1:
             plt.scatter(data[labels == i, 0], data[labels == i, 3], c=colors[i], label=l, alpha=0.5, s=50)
 
-        plt.legend()
-        plt.title(title)
-        plt.xlabel('Sepal Length')
-        plt.ylabel('Petal Width')
-        plt.show()
+    plt.legend()
+    plt.title(title)
+    plt.xlabel('Sepal Length')
+    plt.ylabel('Petal Width')
+    plt.show()
